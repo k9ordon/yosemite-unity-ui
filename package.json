@@ -1,10 +1,10 @@
 {
-  "name": "unity-ui",
+  "name": "yosemite-unity-ui",
   "theme": "ui",
   "version": "0.3.0",
   "private": false,
-  "description": "An Atom theme for a more native experience on OS X.",
-  "repository": "https://github.com/orderedlist/unity-ui",
+  "description": "An Atom theme for a more native experience on OS X 10.10 Yosemite",
+  "repository": "https://github.com/k9ordon/yosemite-unity-ui",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

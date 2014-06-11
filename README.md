@@ -4,6 +4,9 @@ An Atom theme for a more native experience on OS X 10.10 Yosemite
 
 ![Yosemite Unity UI Preview](https://raw.github.com/k9ordon/yosemite-unity-ui/master/preview.png)
 
+Recommended icon replacement: [Atom-Yosemite-Icon](https://dribbble.com/shots/1590423-Atom-Yosemite-Icon
+) by Rory McCawl
+
 ## Install
 
 From the command line:

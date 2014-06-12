@@ -19,10 +19,4 @@ Activate the theme by selecting the Themes section of Preferences.
 
 ## Replacing the Atom Icon
 If you wish to replace the official Atom Icon with the following [Atom-Yosemite-Icon](https://dribbble.com/shots/1590423-Atom-Yosemite-Icon
-) designed by [Rory McCawl](twitter.com/rmccawl) just follow these steps.
-
-Locate your installed Atom App, typically in Appications, then right click on the file and go to 'Get Info'
-![Yosemite Unity UI Preview](icons/icon-install-step-one.png)
-
-Drag the new icon file to the top right of the 'Get Info' pane to replace the exsiting icon
-![Yosemite Unity UI Preview](icons/icon-install-step-two.png)
+) designed by [Rory McCawl](twitter.com/rmccawl) just follow [these steps](icons/icon-install.md).

@@ -1,7 +1,6 @@
 .tab-bar {
     font:11px "Helvetica Neue";
-    height:24px;
-    margin:0px;
+    height:26px;
     background: linear-gradient(#CDCCCD,#C7C6C7);
     display:table;
     width:100%;
@@ -15,11 +14,12 @@
     color:#696869;
     text-align:center;
     position:relative;
-    border-top:1px solid #b7b5b7;
-    border-bottom:1px solid #b7b5b7;
     border-left:1px solid #b7b5b7;
     display:table-cell;
     letter-spacing: .03em;
+
+    border-top:1px solid #b7b5b7;
+    border-bottom:1px solid #b7b5b7;
 
     &:first-child {
         border-left:none;
@@ -40,6 +40,12 @@
     border-bottom-color:#A8A7A8;
     & + .tab {
         border-left:none;
+    }
+    &:first-child {
+        border-left:none;
+    }
+    &:last-child {
+        border-right: none;
     }
 }
 

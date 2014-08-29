@@ -1,8 +1,15 @@
 .tree-view {
   font:11px/15px "Helvetica Neue";
-  background: #ffffff00;
-  padding:4px 6px;
+  background: -webkit-linear-gradient(#d4d4d4, #fff); //#ffffff00;
+  background-attachment:fixed;
+  padding:1px 6px;
   min-width:0;
+}
+
+.is-blurred {
+    .tree-view {
+        background: -webkit-linear-gradient(#f6f6f6, #fff);
+    }
 }
 
 .focusable-panel {
@@ -10,7 +17,7 @@
 }
 
 .tree-view-scroller {
-  border-top:1px solid #b8b8b8;
+  //border-top:1px solid #b8b8b8;
   overflow-x:hidden;
 
   .is-blurred & {

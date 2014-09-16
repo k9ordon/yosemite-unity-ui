@@ -49,6 +49,10 @@
     }
 }
 
+.tab:not(.active):hover {
+  background: linear-gradient(#BDBCBD,#B8B7B8);
+}
+
 .tab-bar .tab .title {
     padding:0!important;
 }
@@ -58,17 +62,19 @@
     cursor:default;
     top:0;
     left:0;
-    height:24px;
-    width:20px;
+    height:16px;
+    margin: 4px 0 4px 4px;
+    width:16px;
     right:auto;
     position:absolute;
     display:none;
+    border-radius: 2px;
 
     &:before {
         content:'✕';
         position:absolute;
-        top:6px;
-        left:5px;
+        top:2px;
+        left:2px;
         width:12px;
         height:13px;
     }
@@ -82,6 +88,14 @@
 
 .tab-bar .tab:hover .close-icon {
     display:block;
+}
+
+.tab-bar .tab.active .close-icon:hover {
+    background: #c4c3c4;
+}
+
+.tab-bar .tab:not(.active) .close-icon:hover {
+    background: #aaa9aa;
 }
 
 .tab .icon:before {

@@ -2,6 +2,8 @@
 
 An Atom theme for a more native experience on OS X 10.10 Yosemite
 
+DEPRECATED - use https://atom.io/themes/unity-ui
+
 ![Yosemite Unity UI Preview](https://raw.github.com/k9ordon/yosemite-unity-ui/master/preview.png)
 
 ## Install
